@@ -1,0 +1,322 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title "RTB D12 Decoder"
+Date "2023-10-24"
+Rev "1"
+Comp "Frank Schumacher"
+Comment1 "FLM-7230"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 650  800  0    118  ~ 0
+Railcom
+$Comp
+L Device:R R34
+U 1 1 5FD5C082
+P 1700 1650
+F 0 "R34" V 1500 1650 50  0000 C CNN
+F 1 "220k" V 1600 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1630 1650 50  0001 C CNN
+F 3 "~" H 1700 1650 50  0001 C CNN
+	1    1700 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 5FD5CB88
+P 2150 1650
+F 0 "R36" V 1950 1650 50  0000 C CNN
+F 1 "9.1k" V 2050 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2080 1650 50  0001 C CNN
+F 3 "~" H 2150 1650 50  0001 C CNN
+	1    2150 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 1650 1900 1650
+Text GLabel 1550 1650 0    50   Input ~ 0
+DCC-a
+$Comp
+L power:GND #PWR?
+U 1 1 5FD5E2AC
+P 2300 1650
+AR Path="/5B6C6B9D/5FD5E2AC" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/5FD5E2AC" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/5FD5E2AC" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 2300 1400 50  0001 C CNN
+F 1 "GND" H 2305 1477 50  0000 C CNN
+F 2 "" H 2300 1650 50  0001 C CNN
+F 3 "" H 2300 1650 50  0001 C CNN
+	1    2300 1650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 1450 0    50   Output ~ 0
+UDCC-a
+Wire Wire Line
+	1550 1450 1900 1450
+Wire Wire Line
+	1900 1450 1900 1650
+Connection ~ 1900 1650
+Wire Wire Line
+	1900 1650 2000 1650
+$Comp
+L Device:R R35
+U 1 1 5FD60754
+P 1700 2250
+F 0 "R35" V 1500 2250 50  0000 C CNN
+F 1 "220k" V 1600 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1630 2250 50  0001 C CNN
+F 3 "~" H 1700 2250 50  0001 C CNN
+	1    1700 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 5FD6075E
+P 2150 2250
+F 0 "R37" V 1950 2250 50  0000 C CNN
+F 1 "9.1k" V 2050 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2080 2250 50  0001 C CNN
+F 3 "~" H 2150 2250 50  0001 C CNN
+	1    2150 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 2250 1900 2250
+Text GLabel 1550 2250 0    50   Input ~ 0
+DCC-b
+$Comp
+L power:GND #PWR?
+U 1 1 5FD6076A
+P 2300 2250
+AR Path="/5B6C6B9D/5FD6076A" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/5FD6076A" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/5FD6076A" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 2300 2000 50  0001 C CNN
+F 1 "GND" H 2305 2077 50  0000 C CNN
+F 2 "" H 2300 2250 50  0001 C CNN
+F 3 "" H 2300 2250 50  0001 C CNN
+	1    2300 2250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 2050 0    50   Output ~ 0
+UDCC-b
+Wire Wire Line
+	1550 2050 1900 2050
+Wire Wire Line
+	1900 2050 1900 2250
+Connection ~ 1900 2250
+Wire Wire Line
+	1900 2250 2000 2250
+Text GLabel 3950 2700 0    50   Input ~ 0
+DCC-b
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 60B7D82B
+P 1850 3300
+F 0 "J2" H 1930 3342 50  0000 L CNN
+F 1 "Conn_01x01" H 1930 3251 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 1850 3300 50  0001 C CNN
+F 3 "~" H 1850 3300 50  0001 C CNN
+	1    1850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 60B7E696
+P 1850 3500
+F 0 "J3" H 1930 3542 50  0000 L CNN
+F 1 "Conn_01x01" H 1930 3451 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 1850 3500 50  0001 C CNN
+F 3 "~" H 1850 3500 50  0001 C CNN
+	1    1850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 60B7FD8A
+P 1850 3700
+F 0 "J4" H 1930 3742 50  0000 L CNN
+F 1 "Conn_01x01" H 1930 3651 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 1850 3700 50  0001 C CNN
+F 3 "~" H 1850 3700 50  0001 C CNN
+	1    1850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 60B8006B
+P 1850 3900
+F 0 "J6" H 1930 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 1930 3851 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 1850 3900 50  0001 C CNN
+F 3 "~" H 1850 3900 50  0001 C CNN
+	1    1850 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 3300 0    50   Input ~ 0
+DCC-a
+Text GLabel 1650 3700 0    50   Input ~ 0
+DCC-a
+Text GLabel 1650 3500 0    50   Input ~ 0
+DCC-b
+Text GLabel 1650 3900 0    50   Input ~ 0
+DCC-b
+$Comp
+L Device:R R3
+U 1 1 60C01040
+P 4850 1600
+F 0 "R3" V 4650 1600 50  0000 C CNN
+F 1 "22" V 4750 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4780 1600 50  0001 C CNN
+F 3 "~" H 4850 1600 50  0001 C CNN
+	1    4850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC857BDW1 Q1
+U 1 1 60B9A488
+P 5250 1850
+F 0 "Q1" H 5440 1804 50  0000 L CNN
+F 1 "BC857BDW1" H 5440 1895 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 5450 1950 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF" H 5250 1850 50  0001 C CNN
+	1    5250 1850
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC857BDW1 Q1
+U 2 1 60B9DC7D
+P 4950 2250
+F 0 "Q1" H 5141 2204 50  0000 L CNN
+F 1 "BC857BDW1" H 5141 2295 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 5150 2350 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF" H 4950 2250 50  0001 C CNN
+	2    4950 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 2050 4850 1850
+Wire Wire Line
+	4850 1850 5050 1850
+Wire Wire Line
+	5150 2250 5350 2250
+Wire Wire Line
+	5350 2250 5350 2050
+Wire Wire Line
+	5350 1650 5350 1200
+Wire Wire Line
+	4850 1200 4850 1450
+Wire Wire Line
+	4850 1750 4850 1850
+Connection ~ 4850 1850
+Connection ~ 5350 2250
+$Comp
+L Transistor_BJT:BC847BDW1 Q2
+U 1 1 60E839E2
+P 4650 2900
+F 0 "Q2" H 4841 2946 50  0000 L CNN
+F 1 "BC847BDW1" H 4841 2855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 4850 3000 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 4650 2900 50  0001 C CNN
+	1    4650 2900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1200 4850 1200
+Connection ~ 5350 1200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60D9BD7E
+P 5350 1200
+AR Path="/5B6C6B9D/60D9BD7E" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/60D9BD7E" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 5350 1050 50  0001 C CNN
+F 1 "+3V3" H 5365 1373 50  0000 C CNN
+F 2 "" H 5350 1200 50  0001 C CNN
+F 3 "" H 5350 1200 50  0001 C CNN
+	1    5350 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2250 5600 2250
+Wire Wire Line
+	5900 2250 6200 2250
+Text GLabel 6200 2250 2    50   Input ~ 0
+RCM.tx
+$Comp
+L Device:R R15
+U 1 1 60BA304E
+P 5750 2250
+F 0 "R15" V 5550 2250 50  0000 C CNN
+F 1 "10k" V 5650 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5680 2250 50  0001 C CNN
+F 3 "~" H 5750 2250 50  0001 C CNN
+	1    5750 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 3100 4550 3250
+Wire Wire Line
+	4550 3250 4850 3250
+Wire Wire Line
+	4850 3250 4850 2900
+Wire Wire Line
+	4550 2700 3950 2700
+Wire Wire Line
+	4850 2450 4850 2900
+Connection ~ 4850 2900
+$Comp
+L Device:R R18
+U 1 1 60E99D1D
+P 5150 2900
+F 0 "R18" V 4950 2900 50  0000 C CNN
+F 1 "10k" V 5050 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 2900 50  0001 C CNN
+F 3 "~" H 5150 2900 50  0001 C CNN
+	1    5150 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 2900 5000 2900
+$Comp
+L Transistor_BJT:BC847BDW1 Q2
+U 2 1 60E9A4D6
+P 4650 3650
+F 0 "Q2" H 4841 3696 50  0000 L CNN
+F 1 "BC847BDW1" H 4841 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 4850 3750 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 4650 3650 50  0001 C CNN
+	2    4650 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3450 4550 3450
+Text GLabel 3950 3450 0    50   Input ~ 0
+DCC-a
+Wire Wire Line
+	4850 3650 5400 3650
+Wire Wire Line
+	5400 3650 5400 2900
+Wire Wire Line
+	5400 2900 5300 2900
+$Comp
+L power:GND #PWR?
+U 1 1 60E9ED99
+P 4550 3850
+AR Path="/5B6C6B9D/60E9ED99" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/60E9ED99" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/60E9ED99" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 4550 3600 50  0001 C CNN
+F 1 "GND" H 4555 3677 50  0000 C CNN
+F 2 "" H 4550 3850 50  0001 C CNN
+F 3 "" H 4550 3850 50  0001 C CNN
+	1    4550 3850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
