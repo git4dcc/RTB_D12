@@ -19,7 +19,7 @@ The decoder has the following features,
 - (optional) 9-Axis motion sensor
 - **firmware update on main tracks**
 
-[more](https://rtb4dcc.de/hardware/decoder/#RTB_D12")
+[more](https://rtb4dcc.de/hardware/decoder/#D12")
 
 # PCB
 <img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_top.jpg" width=300><img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_btm.jpg" width=300>
