@@ -1,6 +1,7 @@
 # RTB_D12
 
-The D12 decoder is a drop in replacement of the original analog FLM (#7230) PCB.
+The D12 decoder is a drop in replacement of the original analog FLM (#7230) PCB.<br>
+The decoder integrates into the [Real-time Bus](https://rtb4dcc.de/concept/) digital control infrastructure for automation and ease of use.
 
 > <img src="https://www.spurweite-n.de/NDBPics/Fleischmann/7230ID453056678--2.jpeg" width=150>
 <br>
@@ -16,8 +17,8 @@ The decoder has the following features,
 - 6x47uF buffer capacity (on PCB)
 - front/read light (on PCB)
 - cabin light (on PCB)
-- (optional) 9-Axis motion sensor
-- **firmware update on main tracks**
+- 9-Axis motion sensor (optional)
+- firmware update on main tracks
 
 [more](https://rtb4dcc.de/hardware/decoder/#D12)
 
