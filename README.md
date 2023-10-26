@@ -26,6 +26,7 @@ The decoder has the following features,
 
 # PCB
 <img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_top.jpg" width=300><img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_btm.jpg" width=300>
+- 4-layer PCB, FR4, 1mm
 - CPU: AVR64DA32
 - Motor bridge: DRV8847
 - Inrush limiter: TPS22810
