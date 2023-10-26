@@ -1,7 +1,6 @@
 # RTB_D12
 
-The D12 decoder is a drop in replacement of the original analog FLM (#7230) PCB.<br>
-The decoder integrates into the [Real-time Bus](https://rtb4dcc.de/concept/) digital control infrastructure for automation and ease of use.
+The D12 decoder is a drop in replacement for the original analog FLM (#7230) PCB. The decoder is designed to integrate into the [RTB](https://rtb4dcc.de/concept/) digital control infrastructure.
 
 > <img src="https://www.spurweite-n.de/NDBPics/Fleischmann/7230ID453056678--2.jpeg" width=150>
 <br>
@@ -13,14 +12,21 @@ The decoder has the following features,
 - **Railcom**
   - Channel 1/2
   - POM, xPOM
-  - DYN: Speed, QoS, Track-Voltage, Motor-Current, Temp, Distance, Pitch/Yaw/Roll
+  - DYN: Speed, QoS, Track-Voltage, Motor-Current, Temp, Distance travelled, Pitch/Yaw/Roll
 - 6x47uF buffer capacity (on PCB)
-- front/read light (on PCB)
-- cabin light (on PCB)
+- Inrush limited
+- motor current limited to 500mA (short circuit protected)
+- front/read LED light (on PCB)
+- cabin LED light (on PCB)
+- CPU heartbeat LED
 - 9-Axis motion sensor (optional)
-- firmware update on main tracks
+- fast firmware update within seconds on main tracks via DCCR
 
 [more](https://rtb4dcc.de/hardware/decoder/#D12)
 
 # PCB
 <img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_top.jpg" width=300><img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_btm.jpg" width=300>
+- CPU: AVR64DA32
+- Motor bridge: DRV8847
+- Inrush limiter: TPS22810
+- 9-axis IMU: BNO055
