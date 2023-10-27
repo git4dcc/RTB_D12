@@ -16,6 +16,7 @@ The decoder has the following features,
 - 6x47uF buffer capacity (on PCB)
 - Inrush limited
 - motor current limited to 500mA (short circuit protected)
+- max track voltage 18V
 - front/read LED light (on PCB)
 - cabin LED light (on PCB)
 - CPU heartbeat LED
@@ -31,3 +32,5 @@ The decoder has the following features,
 - Motor bridge: DRV8847
 - Inrush limiter: TPS22810
 - 9-axis IMU: BNO055
+
+[Schematic](doc/D12_schematic.pdf) | [Layout](doc/D12_layout.pdf)
