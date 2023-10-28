@@ -1,6 +1,6 @@
 # RTB_D12
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Real-time Bus (RTB)](https://img.shields.io/badge/Real--time_Bus-Hardware-ff00ff)](https://www.rtb4dcc.de/hardware)
+[![Real-time Bus (RTB)](https://img.shields.io/badge/Real--time_Bus-Hardware-FF6699)](https://www.rtb4dcc.de/hardware)
 
 The D12 decoder is a drop in replacement for the original analog FLM (#7230) PCB. The decoder is designed to integrate into the [RTB](https://rtb4dcc.de/concept/) digital control infrastructure.
 
