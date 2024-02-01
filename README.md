@@ -1,4 +1,6 @@
 # RTB_D12
+[![Real-time Bus (RTB)](https://img.shields.io/badge/RTB_Project-FF6699)](https://www.rtb4dcc.de)
+[![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 
 The D12 decoder is a drop in replacement for the original analog FLM (#7230) PCB. The decoder is designed to integrate into the [RTB](https://rtb4dcc.de/concept/) digital control infrastructure.
 
@@ -16,6 +18,7 @@ The decoder has the following features,
 - 6x47uF buffer capacity (on PCB)
 - Inrush limited
 - motor current limited to 500mA (short circuit protected)
+- max track voltage 18V
 - front/read LED light (on PCB)
 - cabin LED light (on PCB)
 - CPU heartbeat LED
@@ -31,3 +34,5 @@ The decoder has the following features,
 - Motor bridge: DRV8847
 - Inrush limiter: TPS22810
 - 9-axis IMU: BNO055
+
+[Schematic](doc/D12_schematic.pdf) | [Layout](doc/D12_layout.pdf)
