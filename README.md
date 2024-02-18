@@ -38,9 +38,9 @@ The decoder has the following features,
 [Schematic](doc/D12_schematic.pdf) | [Layout](doc/D12_layout.pdf)
 
 # Firmware
-The firmware filename structure: { **pcb** }{ **code** }{ **version** }.hex
+Filename structure: { **pcb** }{ **code** }{ **version** }.hex
 
-Example: D12F0001.hex
+Example: **D12F0001**.hex
 
 |   | Description |
 | --- | --- |
