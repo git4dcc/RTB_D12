@@ -40,10 +40,10 @@ The decoder has the following features,
 # Firmware
 The firmware filename structure: { **pcb** }{ **code** }{ **version** }.hex
 
+Example: D12F0001.hex
+
 |   | Description |
 | --- | --- |
-| **pcb** | Name of matching hardware |
-| **code** | Type of code contained (R=rom, B=bootloader, F=flash, U=bld update, P=UPDI factory code) |
-| **version** | Release version (0000..0009=A-code (alpha), 0010..0099=T-code (beta), 0100..9999=Q-code (quality)) |
-
-Example: D12F0001.hex
+| **pcb** | Name of matching hardware (**D12**) |
+| **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
+| **version** | Release version (**####**) |
