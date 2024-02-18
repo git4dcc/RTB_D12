@@ -36,3 +36,14 @@ The decoder has the following features,
 - 9-axis IMU: BNO055
 
 [Schematic](doc/D12_schematic.pdf) | [Layout](doc/D12_layout.pdf)
+
+# Firmware
+The firmware filename structure: { **pcb** }{ **code** }{ **version** }.hex
+
+|   | Description |
+| --- | --- |
+| **pcb** | Name of matching hardware |
+| **code** | Type of code contained (R=rom, B=bootloader, F=flash, U=bld update, P=UPDI factory code) |
+| **version** | Release version (0000..0009=A-code (alpha), 0010..0099=T-code (beta), 0100..9999=Q-code (quality)) |
+
+Example: D12F0001.hex
