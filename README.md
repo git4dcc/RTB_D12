@@ -9,8 +9,8 @@ The D12 decoder is a drop in replacement for the original analog FLM (#7230) PCB
 
 The decoder has the following features,
 - **DCC**
-  - DCCA automatic logon
-  - DCCR protocol extension
+  - DCC-A automatic logon
+  - DCC-R protocol extension
 - **Railcom**
   - Channel 1/2
   - POM, xPOM
