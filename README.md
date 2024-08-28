@@ -74,4 +74,8 @@ Example: **D12F0001**.hex
 # Images
 <img src=https://rtb4dcc.de/wp-content/uploads/2024/04/D12_2-300x165.jpg width=400>
 
+# YouTube
+Some short videos to see the D12 decoder in action.<br><br>
+[<img src="https://img.youtube.com/vi/G0pOsj4374I/0.jpg" width=260>](https://youtu.be/G0pOsj4374I)
+
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
