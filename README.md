@@ -5,13 +5,14 @@
 
 The D12 decoder is a drop in replacement for the original analog FLM (#7230) PCB. The decoder is designed to integrate into the [RTB](https://rtb4dcc.de/concept/) digital control infrastructure.
 
-> <img src="https://www.spurweite-n.de/NDBPics/Fleischmann/7230ID453056678--2.jpeg" width=150>
+> <img src="https://www.spurweite-n.de/NDBPics/Fleischmann/7230ID453056678--2.jpeg" width=250>
 <br>
 
 The decoder has the following features,
 - **DCC**
   - DCC-A automatic logon
   - DCC-R protocol extension
+  - Service Mode Programming
 - **Railcom**
   - Channel 1/2
   - POM, xPOM
@@ -24,7 +25,7 @@ The decoder has the following features,
 - cabin LED light (on PCB)
 - CPU heartbeat LED
 - 9-Axis motion sensor (optional)
-- fast firmware update within seconds on main tracks via DCCR
+- fast firmware update within seconds on main tracks via DCC-R
 
 [more](https://rtb4dcc.de/hardware/decoder/d12/)
 
