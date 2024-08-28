@@ -5,7 +5,15 @@
 
 The D12 decoder is a drop in replacement for the original analog FLM (#7230) PCB. The decoder is designed to integrate into the [RTB](https://rtb4dcc.de/concept/) digital control infrastructure.
 
-> <img src="https://www.spurweite-n.de/NDBPics/Fleischmann/7230ID453056678--2.jpeg" width=250>
+<details>
+<summary>User Guides</summary>
+
+- User Guide - DE
+- [User Guide - EN](https://rtb4dcc.de/rtb_decoder_reference_en/)
+
+</details>
+
+> <img src="https://www.spurweite-n.de/NDBPics/Fleischmann/7230ID453056678--2.jpeg" width=400>
 <br>
 
 The decoder has the following features,
@@ -27,19 +35,30 @@ The decoder has the following features,
 - 9-Axis motion sensor (optional)
 - fast firmware update within seconds on main tracks via DCC-R
 
-[more](https://rtb4dcc.de/hardware/decoder/d12/)
+# Hardware
+The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0603 parts. Reflow soldering is recommended whereas handsoldering will be difficult.
 
-# PCB
-<img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_top.jpg" width=300><img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_btm.jpg" width=300>
+<img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_top.jpg" width=500><img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_btm.jpg" width=500>
+
+## PCB
 - 4-layer PCB, FR4, 1mm
 - CPU: AVR64DA32
 - Motor bridge: DRV8847
 - Inrush limiter: TPS22810
 - 9-axis IMU: BNO055
 
-[Schematic](doc/D12_schematic.pdf) | [Layout](doc/D12_layout.pdf)
+## Kicad
+[Schematic](doc/D12_schematic.pdf) | [Layout](doc/D12_layout.pdf) | [Gerber](gerber)
 
-# Firmware
+<details>
+<summary>Dependency</summary>
+<br>
+
+:yellow_circle: Requires my Kicad project library [RTB_SamacSys](https://github.com/git4dcc/RTB_SamacSys) in the same directory tree.
+
+</details>
+
+## Firmware
 Filename structure: { **pcb** }{ **code** }{ **version** }.hex
 
 Example: **D12F0001**.hex
@@ -49,3 +68,10 @@ Example: **D12F0001**.hex
 | **pcb** | Name of matching hardware (**D12**) |
 | **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
 | **version** | Release version (**####**) |
+
+[Firmware files](firmware)
+
+# Images
+<img src=https://rtb4dcc.de/wp-content/uploads/2024/04/D12_2-300x165.jpg width=400>
+
+This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
