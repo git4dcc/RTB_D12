@@ -42,7 +42,8 @@ The D12 decoder is a drop in replacement for the original analog FLM (#7230) PCB
 # Hardware
 The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0603 parts. Reflow soldering is recommended whereas handsoldering will be difficult.
 
-<img src="supplemental/images/D12_top.jpg" width=500> <img src="supplemental/images/D12_btm.jpg" width=500>
+<img src="supplemental/images/D12_top.jpg" width=600>
+<img src="supplemental/images/D12_btm.jpg" width=600>
 
 ## PCB
 - 4-layer PCB, FR4, 0.8mm
