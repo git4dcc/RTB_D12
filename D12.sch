@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "RTB D12 Decoder"
-Date "2023-10-24"
-Rev "1"
+Date "2024-11-24"
+Rev "5"
 Comp "Frank Schumacher"
-Comment1 "FLM-7230"
+Comment1 "Flm V100 Decoder"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Licensed under the Apache License, Version 2"
 $EndDescr
 $Sheet
 S 5600 3250 1750 750 
