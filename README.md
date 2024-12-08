@@ -13,10 +13,11 @@ The D12 decoder is a drop in replacement for the original analog FLM (#7230) PCB
 
 </details>
 
-> <img src="https://www.spurweite-n.de/NDBPics/Fleischmann/7230ID453056678--2.jpeg" width=400>
+<img src="supplemental/images/D12_main.jpg" width=700>
 <br>
 
-The decoder has the following features,
+## Decoder features
+- **Fleischmann V100** PCB decoder
 - **DCC**
   - DCC-A automatic logon
   - DCC-R protocol extension
@@ -24,28 +25,30 @@ The decoder has the following features,
 - **Railcom**
   - Channel 1/2
   - POM, xPOM
-  - DYN: Speed, QoS, Track-Voltage, Motor-Current, Temp, Distance travelled, Pitch/Yaw/Roll
-- 6x47uF buffer capacity (on PCB)
-- Inrush limited
-- motor current limited to 500mA (short circuit protected)
-- max track voltage 18V
-- front/read LED light (on PCB)
-- cabin LED light (on PCB)
-- CPU heartbeat LED
-- 9-Axis motion sensor (optional)
-- fast firmware update within seconds on main tracks via DCC-R
+  - DYN: Speed, QoS, Track-voltage, Motor-current, AUX-current, Temp, Distance travelled
+- 7-18V track voltage
+- heartbeat LED
+- adjustable max motor current (default 250mA)
+- adjustable max AUX current (default 250mA)
+- over temp protection
+- Function output: LF/LR (dimmable, 1.4kHz), LED on PCB
+- Function output: AUX1/AUX2 (dimmable, 1.4kHz) logic level (3.3V)
+- Function output: AUX3/AUX4 open drain
+- Function output: AUX5 cabin light, LED on PCB
+- buffer capacitor 2x330uF
+- <10mA idle power consumption
+- Firmware update over main tracks via DCC-R protocol
 
 # Hardware
 The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0603 parts. Reflow soldering is recommended whereas handsoldering will be difficult.
 
-<img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_top.jpg" width=500><img src="https://rtb4dcc.de/wp-content/uploads/2023/06/D12_btm.jpg" width=500>
+<img src="supplemental/images/D12_top.jpg" width=500> <img src="supplemental/images/D12_btm.jpg" width=500>
 
 ## PCB
-- 4-layer PCB, FR4, 1mm
+- 4-layer PCB, FR4, 0.8mm
 - CPU: AVR64DA32
-- Motor bridge: DRV8847
+- Motor bridge: DRV8231
 - Inrush limiter: TPS22810
-- 9-axis IMU: BNO055
 
 ## Kicad
 [Schematic](doc/D12_schematic.pdf) | [Layout](doc/D12_layout.pdf) | [Gerber](gerber)
@@ -72,10 +75,10 @@ Example: **D12F0001**.hex
 [Firmware files](firmware)
 
 # Images
-<img src=https://rtb4dcc.de/wp-content/uploads/2024/04/D12_2-300x165.jpg width=400>
+<img src="supplemental/images/D12_usecase1.JPG" width=500>
 
 # YouTube
-Some short videos to see the D12 decoder in action.<br><br>
+See the D12 decoder in action.<br><br>
 [<img src="https://img.youtube.com/vi/G0pOsj4374I/0.jpg" width=260>](https://youtu.be/G0pOsj4374I)
 
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
