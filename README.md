@@ -6,6 +6,16 @@
 The D12 decoder is a drop in replacement for the original analog FLM (#7230) PCB. The decoder is designed to integrate into the [RTB](https://rtb4dcc.de/concept/) digital control infrastructure.
 
 <details>
+<summary>See also</summary>
+
+- [RTB_D16](https://github.com/git4dcc/RTB_D20) (NEM651 single sided)
+- [RTB_D20](https://github.com/git4dcc/RTB_D20) (NEM651 double sided)
+- [RTB_D21](https://github.com/git4dcc/RTB_D21) (Next18)
+- [RTB_D22](https://github.com/git4dcc/RTB_D22) (Plux16)
+
+</details>
+
+<details>
 <summary>User Guides</summary>
 
 - User Guide - DE
@@ -76,7 +86,7 @@ Example: **D12F0001**.hex
 [Firmware files](firmware)
 
 # Images
-<img src="supplemental/images/D12_usecase1.JPG" width=500>
+<img src="supplemental/images/D12_usecase1.JPG" width=400> <img src="supplemental/images/D12_usecase2.JPG" width=400>
 
 # YouTube
 See the D12 decoder in action.<br><br>
