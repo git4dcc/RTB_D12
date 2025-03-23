@@ -9,6 +9,7 @@ My Homebrew [D12](https://rtb4dcc.de/hardware/decoder/d12/) decoder is a drop in
 <summary>See also</summary>
 
 - [RTB_D13 - custom](https://github.com/git4dcc/RTB_D13) (Minitrix coach)
+- [RTB_D15 - custom](https://github.com/git4dcc/RTB_D15) (Minitrix V160)
 - [RTB_D16 - NEM651](https://github.com/git4dcc/RTB_D16)
 - [RTB_D20 - NEM651](https://github.com/git4dcc/RTB_D20)
 - [RTB_D21 - Next18](https://github.com/git4dcc/RTB_D21)
