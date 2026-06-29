@@ -63,10 +63,12 @@ The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0603 part
 - 4-layer PCB, FR4, 0.8mm
 - CPU: AVR64DA32
 - Motor bridge: DRV8231
-- Inrush limiter: TPS22810
+- Inrush limiter: R/D combination
 
 ## Kicad
-[Schematic](doc/D12_schematic.pdf) | [Layout](doc/D12_layout.pdf) | [Gerber](gerber)
+[Schematic](doc/D12_schematic.pdf) | [Layout](doc/D12_layout.pdf)
+
+The BOM is tailored to JLCPCB part#.
 
 <details>
 <summary>Dependency</summary>
