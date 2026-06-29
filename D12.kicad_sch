@@ -1,0 +1,160 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "031779d1-d765-4d72-ab14-ec219cc8a33b")
+	(paper "A4")
+	(title_block
+		(title "RTB D12 Decoder")
+		(date "2024-11-24")
+		(rev "5")
+		(company "Frank Schumacher")
+		(comment 1 "Flm V100 Decoder")
+		(comment 4 "Licensed under the Apache License, Version 2")
+	)
+	(lib_symbols)
+	(sheet
+		(at 83.82 82.55)
+		(size 44.45 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-00005b6c6b9d")
+		(property "Sheetname" "CPU"
+			(at 83.82 81.4701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "D12cpu.kicad_sch"
+			(at 83.82 102.4792 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "D12"
+				(path "/031779d1-d765-4d72-ab14-ec219cc8a33b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 82.55)
+		(size 44.45 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-00005b6d3404")
+		(property "Sheetname" "Railcom"
+			(at 142.24 81.4701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "D12rcm.kicad_sch"
+			(at 142.24 102.4792 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "D12"
+				(path "/031779d1-d765-4d72-ab14-ec219cc8a33b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 82.55)
+		(size 50.8 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-00005ca7768a")
+		(property "Sheetname" "Power"
+			(at 200.66 81.4701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "D12pwr.kicad_sch"
+			(at 200.66 102.4792 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "D12"
+				(path "/031779d1-d765-4d72-ab14-ec219cc8a33b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
